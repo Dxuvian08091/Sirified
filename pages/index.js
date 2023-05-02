@@ -120,7 +120,7 @@ const PanelDemo = () => {
                 {value.split(" ").map((word, index) => {
                   let bold = "";
                   let normal = "";
-                  if (word.length > 8) {
+                  if (word.length >= 6) {
                     bold = word.slice(0, 3);
                     normal = word.slice(3);
                   } else {
